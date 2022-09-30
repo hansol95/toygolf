@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+    <div id="wrap1">
+        <!--footer 하단 고정하기 위하여 전체를 잡아줌-->
+        <div class="container">
+            <!--드랍 다운들을 묶어서 가운데 정렬 해주었다-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <!--드랍다운들을 만든 코드+ navbar-(뒷부분): 뒷부분 변경해주면 색깔 변경 가능-->
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <!--부산 골프클럽 이미지와 텍스트 -->
+                        <img src="골프장 사진.jpg" alt="" width="50" height="50"> Busan Golf Club</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    클럽소개
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">소개</a></li>
+                                    <li><a class="dropdown-item" href="#">오시는 길</a></li>
+                                    <li><a class="dropdown-item" href="#">연락처</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    시설 안내
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">로비</a></li>
+                                    <li><a class="dropdown-item" href="#">타석존 2F, 3F</a></li>
+                                    <li><a class="dropdown-item" href="#">레슨존 4F</a></li>
+                                    <li><a class="dropdown-item" href="#">스크린 골프 5F</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    회원권
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">회원권 등록</a></li>
+                                    <li><a class="dropdown-item" href="#">회원권 연장</a></li>
+                                    <li><a class="dropdown-item" href="#">일일 회원권 등록</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    부대시설
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">샤워실</a></li>
+                                    <li><a class="dropdown-item" href="#">스트레칭 존</a></li>
+                                    <li><a class="dropdown-item" href="#">카페테리아</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    커뮤니티
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">게시물 등록</a></li>
+                                    <li><a class="dropdown-item" href="#">골프용품 추천</a></li>
+                                    <li><a class="dropdown-item" href="#">이 달의 이벤트</a></li>
+                                </ul>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        로그인
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="Sign_up.html">회원가입</a></li>
+                                        <li><a class="dropdown-item" href="login_page.html">로그인</a></li>
+                                        <li><a class="dropdown-item" href="#">탈퇴</a></li>
+                                    </ul>
+                                </li>
+                            </li>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!--이미지 위에 텍스트 정가운데에 넣는 방법+ 이미지를 센터에 놓는 방법-->
+        <div class="lb-wrap" style="text-align:center">
+            <div class="lb-image">
+                <img src="골프장 사진.jpg" style="max-width: 100%; height: auto;">
+            </div>
+            <div class="lb-text">
+                <h1>Welcome to Busan Golf Club</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://www.thek-hotel.co.kr/resources/skmh/images/mobile/facilities/img_view_golf1.jpg';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!--푸터 만들기!!-->
+    <footer class="footer">
+        <p>주소: 부산시 남구 전포대로 **번길 **. </p>
+        <p>상담 전화번호: 051-***-****</p>
+        <p>대표: 이한솔 010-****-****</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
