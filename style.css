@@ -97,25 +97,23 @@ footer {
     }
 /* welcome 왼쪽에서 날라오게 하는 법*/
     h1{
-        font-size: 4em;
-        width: 1000px;
+        font-size: 3em;
+        width: 100%;
         color: black;
         font-family: sans-serif;
-        position: absolute;
-        top: 550px;
-        left:400px;
+        position: relative;
         animation: slide 2s ease-out;
         
     }
     
     @keyframes slide {
         from{
-            left: -100px;
+            left: -50%;
             opacity: 0;
     
         }
         to{
-            left: 400px; 
+            left: 50%; 
             opacity: 1;
         }
     }
