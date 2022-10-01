@@ -1,0 +1,28 @@
+/* navbar center*/
+html,body {
+    height: 100%;
+    width:100%
+}
+/* welcome 왼쪽에서 날라오게 하는 법*/
+h1 {
+    font-size: 4em;
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    position: relative;
+    animation: from_left_slide 2s ease-out;
+
+}
+
+@keyframes from_left_slide {
+    from {
+        left: -50%;
+        opacity: 0;
+
+    }
+
+    to {
+        left: 0.1%;
+        opacity: 1;
+    }
+}
